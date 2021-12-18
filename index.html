@@ -1,33 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- Normalize -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- Font Awesome Library -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- CSS Master -->
+  <link rel="stylesheet" href="css/master.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Inter">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Lexend+Deca">
 </head>
+
 <body>
-
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="card">
+    <div class="content">
+      <h2>Get <span>insights</span> that help your business grow.</h2>
+      <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer
+        experience, and overall efficiency.
+      </p>
+      <div class="boxs">
+        <div class="box"><span>10k+</span> companies </div>
+        <div class="box"><span>314</span> templates </div>
+        <div class="box"><span>12m+</span> queries </div>
+      </div>
+    </div>
+    <div class="image"><img src="images/image-header-desktop.jpg" alt=""></div>
   </div>
 </body>
+<div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+  Coded With <span style="color: red;"> &#10084; </span> by <a href="#">ElHoss</a>.
+</div>
+
 </html>
