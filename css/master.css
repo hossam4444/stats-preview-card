@@ -40,8 +40,6 @@ body {
 .card .image {
   position: relative;
   background-color: hsl(277, 64%, 61%);
-}
-.card .image {
   max-width: 400px;
 }
 .card .image img {
