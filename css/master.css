@@ -9,7 +9,6 @@ body {
   background-color: hsl(233, 47%, 7%);
   position: relative;
   height: 100vh;
-  
   padding: 0 10px;
   display: flex;
   flex-direction: column;
@@ -42,6 +41,7 @@ body {
   background-color: hsl(277, 64%, 61%);
   max-width: 400px;
 }
+/* Mix-blend-mode applyed to Make The Overlay */
 .card .image img {
   max-width: 100%;
   min-height: 100%;
